@@ -1,0 +1,1352 @@
+2015/09/02 00:39:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/test/gii/model/index
+HTTP_REFERER=http://pruebayii/test/gii/default/index
+---
+2015/09/02 00:39:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/test/gii/model/index
+HTTP_REFERER=http://pruebayii/test/gii/default/index
+---
+2015/09/02 00:52:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(394): CDbConnection->init()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/test/gii/model/index
+HTTP_REFERER=http://pruebayii/test/gii/controller/index
+---
+2015/09/02 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/css/bootstrap.min.css".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/themes/classic/css/bootstrap.min.css
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/js/scripts.js".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/themes/classic/js/scripts.js
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/js/bootstrap.min.js".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/themes/classic/js/bootstrap.min.js
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 14:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/css/styles.css".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/themes/classic/css/styles.css
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:17:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:18:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:23:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:54:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:58:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 15:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 16:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 16:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 16:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 16:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/02 16:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blank.gif".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('blank.gif')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/blank.gif
+HTTP_REFERER=http://pruebayii/test/
+---
+2015/09/03 13:17:21 [error] [php] Undefined variable: layout (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/SiteController.php:30)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): SiteController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/site/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/SiteController.php (30)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 15:37:28 [error] [exception.CException] exception 'CException' with message 'UsersController and its behaviors do not have a method or closure named "app".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): CComponent->__call('app', Array)
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): UsersController->app()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php(128): CController->render('index', Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#18 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test/users
+---
+2015/09/03 15:37:41 [error] [exception.CException] exception 'CException' with message 'Property "UsersController.app" is not defined.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): CComponent->__get('app')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php(128): CController->render('index', Array)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('')
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/test/users
+---
+2015/09/03 15:37:49 [error] [exception.CException] exception 'CException' with message 'Property "UsersController.app" is not defined.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): CComponent->__get('app')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php(128): CController->render('index', Array)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('')
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/test/users
+---
+2015/09/03 15:38:33 [error] [exception.CException] exception 'CException' with message 'UsersController and its behaviors do not have a method or closure named "app".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): CComponent->__call('app', Array)
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): UsersController->app()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php(128): CController->render('index', Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#18 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test/users
+---
+2015/09/03 15:39:10 [error] [exception.CException] exception 'CException' with message 'UsersController and its behaviors do not have a method or closure named "end".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): CComponent->__call('end', Array)
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/users/index.php(20): UsersController->end()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php(128): CController->render('index', Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('')
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#18 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#19 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/test/users
+---
+2015/09/03 16:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:483
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(270): CController->missingAction('users')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/site/users
+---
+2015/09/03 16:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:483
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(270): CController->missingAction('users')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/site/users
+---
+2015/09/03 16:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:483
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(270): CController->missingAction('users')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('site/users')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/site/users
+---
+2015/09/03 16:57:11 [error] [php] Undefined variable: dataProvider (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php:70)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): UsersController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/users/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php (70)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 16:57:25 [error] [php] Undefined variable: dataProvider (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php:70)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): UsersController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/users/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php (70)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 16:57:40 [error] [php] Undefined variable: dataProvider (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php:70)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): UsersController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): UsersController->filterAccessControl()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): UsersController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): UsersController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/users/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/UsersController.php (70)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 17:48:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:336
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/test/users/update/
+---
+2015/09/03 17:49:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:336
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users/update')
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/test/users/update/
+---
+2015/09/03 18:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries
+---
+2015/09/03 19:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries
+---
+2015/09/03 19:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries
+---
+2015/09/03 19:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries
+---
+2015/09/03 19:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries
+---
+2015/09/03 19:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "countries/index".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/index')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/countries/index
+---
+2015/09/03 19:02:00 [error] [php] Undefined variable: countries (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:3)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (3)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:03:12 [error] [php] Object of class Countries could not be converted to string (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:6)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (6)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:03:33 [error] [php] Object of class Countries could not be converted to string (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:6)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (6)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:03:35 [error] [php] Object of class Countries could not be converted to string (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:6)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (6)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:03:38 [error] [php] Object of class Countries could not be converted to string (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:6)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (6)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:04:32 [error] [php] Array to string conversion (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php:3)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CountriesController->render()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php (3)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (16)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:04:41 [error] [exception.CException] exception 'CException' with message 'Property "CountriesController.countries" is not defined.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/index.php(3): CComponent->__get('countries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require('/Users/josefern...')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Users/josefern...', Array, true)
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CBaseController->renderFile('/Users/josefern...', Array, true)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(16): CController->render('index', Array)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('index')
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/index')
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/test/countries/index
+---
+2015/09/03 19:22:13 [error] [php] Undefined index: Countries (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php:24)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (24)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:23:32 [error] [php] Undefined index: countries (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php:24)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (24)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:25:30 [error] [php] Array to string conversion (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php:24)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (24)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:25:32 [error] [php] Array to string conversion (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php:24)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/create
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (24)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/03 19:36:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('contries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/contries
+---
+2015/09/03 19:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "create".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('create')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/create
+---
+2015/09/03 19:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:483
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(270): CController->missingAction('delete')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/countries/delete
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 00:17:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:336
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/test/countries/update
+---
+2015/09/04 00:18:29 [error] [exception.CException] exception 'CException' with message 'Property "Countries.atributes" is not defined.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CComponent.php:173
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/db/ar/CActiveRecord.php(161): CComponent->__set('atributes', Array)
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(43): CActiveRecord->__set('atributes', Array)
+#2 [internal function]: CountriesController->actionUpdate('1')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CountriesController), Object(ReflectionMethod), Array)
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/test/countries/update/1
+HTTP_REFERER=http://pruebayii/test/countries/update/1
+---
+2015/09/04 00:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "users".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:483
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(270): CController->missingAction('users')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('users')
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/users')
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/countries/users
+---
+2015/09/04 01:31:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:336
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/test/countries/delete
+HTTP_REFERER=http://pruebayii/test/countries/index
+---
+2015/09/04 01:55:40 [error] [php] Undefined variable: data (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php:27)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(69): CountriesController->render()
+#3 unknown(0): CountriesController->actionView()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/5
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php (27)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (69)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 01:55:44 [error] [php] Undefined variable: data (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php:27)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(69): CountriesController->render()
+#3 unknown(0): CountriesController->actionView()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/5
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php (27)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (69)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 01:56:55 [error] [php] Undefined variable: data (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php:27)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(869): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(782): CountriesController->renderPartial()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(69): CountriesController->render()
+#3 unknown(0): CountriesController->actionView()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/5
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/views/countries/view.php (27)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (69)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 02:11:10 [error] [php] Invalid argument supplied for foreach() (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/main.php:64)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/CContentDecorator.php(76): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(214): CContentDecorator->run()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(308): CountriesController->endWidget()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/column1.php(12): CountriesController->endContent()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CountriesController->renderInternal()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(784): CountriesController->renderFile()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(12): CountriesController->render()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/main.php (64)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/column1.php (12)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (12)
+2015/09/04 02:15:19 [error] [php] Undefined variable: type (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/main.php:65)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/CContentDecorator.php(76): CountriesController->renderFile()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(214): CContentDecorator->run()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(308): CountriesController->endWidget()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/column1.php(12): CountriesController->endContent()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(126): require()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CBaseController.php(95): CountriesController->renderInternal()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(784): CountriesController->renderFile()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php(15): CountriesController->render()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): CountriesController->actionIndex()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#13 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#14 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#15 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#17 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/index
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/main.php (65)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/themes/classic/views/layouts/column1.php (12)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (15)
+2015/09/04 12:16:19 [error] [php] Undefined variable: statusVar (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php:18)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php (18)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (20)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 12:17:10 [error] [php] Undefined variable: statusVar (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php:18)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php (18)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (20)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 12:17:13 [error] [php] Undefined variable: statusVar (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php:18)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): CountriesController->runAction()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CountriesController->runActionWithFilters()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CountriesController->run()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/countries/
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/extensions/jmComponent.php (18)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/CountriesController.php (20)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php (13)
+2015/09/04 15:04:26 [error] [php] Undefined variable: users (/Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/components/UserIdentity.php:24)
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/SiteController.php(98): LoginForm->validate()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(286): SiteController->runAction()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CWebApplication->run()
+REQUEST_URI=/test/site/login
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/components/UserIdentity.php (24)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/models/LoginForm.php (53)
+in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/protected/controllers/SiteController.php (98)
+2015/09/04 16:02:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('statusToggle')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/statu...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/statusToggle/5
+HTTP_REFERER=http://pruebayii/test/site/login
+---
+2015/09/04 16:04:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:1118
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/test/countries/delete/5
+HTTP_REFERER=http://pruebayii/test/countries/index
+---
+2015/09/04 16:05:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users/admin')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/users/admin
+HTTP_REFERER=http://pruebayii/test/users
+---
+2015/09/04 16:09:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php:1118
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('users/delete')
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/test/users/delete/2
+HTTP_REFERER=http://pruebayii/test/users/admin
+---
+2015/09/04 16:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "coutries".' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('coutries')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/coutries
+---
+2015/09/04 16:54:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/site/login
+---
+2015/09/04 16:54:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/site/login
+---
+2015/09/04 16:54:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:03:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:03:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/delete/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:03:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:03:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+---
+2015/09/04 17:14:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/updat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/update/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:15:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/delete/16
+HTTP_REFERER=http://pruebayii/test/countries/
+---
+2015/09/04 17:18:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('delete')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/delet...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/delete/17
+HTTP_REFERER=http://pruebayii/test/countries/index
+---
+2015/09/04 17:20:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/creat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/create
+HTTP_REFERER=http://pruebayii/test/site/login
+---
+2015/09/04 17:20:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/creat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/create
+HTTP_REFERER=http://pruebayii/test/countries/index
+---
+2015/09/04 17:49:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/web/CWebApplication.php(141): CWebApplication->runController('countries/creat...')
+#9 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /Users/josefernandez/Documents/Proyectos/PruebaYii-1.1.16/test/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/countries/create
+HTTP_REFERER=http://pruebayii/test/site/login
+---
